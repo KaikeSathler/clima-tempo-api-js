@@ -3,12 +3,8 @@ Sistema de previsão do tempo
 ![](https://github.com/KaikeSathler/clima-tempo-api-js/blob/main/weather-icons/image.png)
 
 
-## Uso/Exemplos
+## Requisitando API
 
 ```javascript
-import Component from 'my-project'
-
-function App() {
-  return <Component />
-}
+https://api.openweathermap.org/data/3.0/onecall?lat={lat}&lon={lon}&exclude={part}&appid={API key}
 ```
