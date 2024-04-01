@@ -29,7 +29,7 @@ function chamarAPI(cidade, carregadoInicio = false, lat = 0, long = 0) {
         document.getElementById("umidade").innerText = velocidade_vento + " %";
         document.getElementById("cidade").innerText = dados.name + ", " + dados.sys.country;
         if (temperatura < 20) {
-            document.getElementById("color_temp").style.backgroundColor = "rgb(121, 163, 201)";
+            document.getElementById("color_temp").style.backgroundColor = "rgb(255, 216, 87)";
           } else {
             document.getElementById("color_temp").style.backgroundColor = "rgb(255, 227, 46)";
           }
