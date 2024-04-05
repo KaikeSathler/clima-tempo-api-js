@@ -20,11 +20,11 @@
   <body class="font-[Inter]">
     <h1 class="text-3xl text-center m-4">Clima Tempo</h1>
     <section class="w-full flex items-center justify-center">
-      <div class="border rounded-xl shadow-md w-[30rem] p-3 m-4">
+      <div class="border rounded-xl shadow-md p-4 w-[30rem] m-4">
         <div class="flex flex-col gap-4 items-center justify-center">
           <div class="w-full">
             <div class="flex border border-gray-200 rounded-lg items-center">
-              <span class="material-symbols-outlined p-2 text-slate-800"> location_on </span>
+              <span class="material-symbols-outlined p-2 text-slate-700"> location_on </span>
               <input
               id="search"
                 type="search"
@@ -32,7 +32,7 @@
                 onkeyup="verificarEnter(event)"
               />
               <button onclick="chamarAPI(document.querySelector('input[type=search]').value)">
-                <span class="material-symbols-outlined p-2 text-slate-800">
+                <span class="material-symbols-outlined p-2 text-slate-700">
                 search 
                </span>
               </button>
@@ -55,9 +55,9 @@
             </div>
           </div>
         </div>
-        <div class="grid grid-cols-2 gap-6 w-full my-6 ">
-          <div class="rounded-lg flex items-center border text-center p-2">
-            <span class="material-symbols-outlined text-red-400 p-3">
+        <div class="grid grid-cols-2 gap-6 my-4 w-full">
+          <div class="rounded-lg gap-2 flex items-center justify-center border text-center p-2">
+            <span class="material-symbols-outlined text-red-400">
               thermometer_add
             </span>
             <div class="flex-col">
@@ -68,8 +68,8 @@
               </span>
             </div>
           </div>
-          <div class="rounded-lg flex items-center border text-center p-2">
-            <span class="material-symbols-outlined text-blue-300 p-3">
+          <div class="rounded-lg gap-2 flex items-center border text-center justify-center p-2">
+            <span class="material-symbols-outlined text-blue-300">
               air
             </span>
             <div class="flex-col">
@@ -80,8 +80,8 @@
               </span>
             </div>
           </div>
-          <div class="rounded-lg flex items-center border text-center p-2">
-            <span class="material-symbols-outlined text-sky-400 p-3 ">
+          <div class="rounded-lg gap-2 flex items-center border justify-center text-center p-2">
+            <span class="material-symbols-outlined text-sky-400 ">
                 thermometer_minus
                 </span>
             <div class="flex-col">
@@ -92,8 +92,8 @@
               </span>
             </div>
           </div>
-          <div class="rounded-lg flex items-center border text-center p-2">
-            <span class="material-symbols-outlined text-teal-400 p-3">
+          <div class="rounded-lg gap-2 flex items-center border justify-center text-center p-2">
+            <span class="material-symbols-outlined text-teal-400">
                 <span class="material-symbols-outlined">
                     water_drop
                     </span>
